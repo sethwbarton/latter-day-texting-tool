@@ -1,0 +1,165 @@
+[{
+    "nameFormats": {
+        "listPreferredLocal": "Last, First",
+        "givenPreferredLocal": "First",
+        "familyPreferredLocal": "Last",
+        "listPreferred": null,
+        "listOfficial": null,
+        "spokenPreferredLocal": null,
+        "certificateChurchOfficerLocal": null,
+        "certificateOfficialLocal": null
+    },
+    "uuid": "some guid",
+    "nameOrder": 25,
+    "age": 28,
+    "mrn": null,
+    "emails": [
+        {
+            "email": "test@test.com",
+            "ownerType": null,
+            "useType": null
+        }
+    ],
+    "phones": [
+        {
+            "number": "123-456-7890",
+            "ownerType": null,
+            "useType": null,
+            "internationalFormat": null
+        }
+    ],
+    "phoneNumber": "123-456-7890",
+    "priesthoodOffice": "ELDER",
+    "membershipUnit": null,
+    "legacyCmisId": 123456789,
+    "sex": "M",
+    "unitOrgsCombined": [
+        "some_guid",
+        "another_guid"
+    ],
+    "positions": null,
+    "householdMember": {
+        "householdRole": "HEAD",
+        "household": {
+            "anchorPerson": {
+                "legacyCmisId": 1234567890,
+                "uuid": "some_guid"
+            },
+            "uuid": "some_guid",
+            "familyNameLocal": "Last",
+            "directoryPreferredLocal": "Last, First & First Middle",
+            "address": {
+                "formattedLine1": "123 Test St.",
+                "formattedLine2": "Testville, TestLand 11111-1111",
+                "formattedLine3": null,
+                "formattedLine4": null,
+                "useType": null,
+                "formatted1": null,
+                "formatted2": null,
+                "formatted3": null,
+                "formatted4": null,
+                "formatted5": null,
+                "formatted6": null,
+                "formattedAll": [],
+                "addressLines": [
+                    "123 Test St.",
+                    "Testville, Testland 111111-1111"
+                ]
+            },
+            "emails": null,
+            "phones": [
+                {
+                    "number": "1234567890",
+                    "ownerType": null,
+                    "useType": null,
+                    "internationalFormat": null
+                }
+            ],
+            "unit": {
+                "parentUnit": null,
+                "uuid": null,
+                "unitNumber": 12345,
+                "nameLatin": null,
+                "nameLocal": "Test Ward",
+                "unitType": null,
+                "children": null,
+                "positions": null,
+                "cdolLink": null,
+                "adminUnit": null,
+                "addressUnknown": null
+            }
+        },
+        "membershipUnitFlag": true
+    },
+    "households": null,
+    "personUuid": "some_guid",
+    "email": "test@test.com",
+    "isSpouse": false,
+    "householdAnchorPersonUuid": "some_guid",
+    "householdNameFamilyLocal": "Last",
+    "outOfUnitMember": false,
+    "unitName": "Ward Name",
+    "member": true,
+    "convert": false,
+    "priesthoodTeacherOrAbove": true,
+    "nameGivenPreferredLocal": "First",
+    "isAdult": true,
+    "nameFamilyPreferredLocal": "Last",
+    "isMember": true,
+    "unitNumber": 123456,
+    "houseHoldMemberNameForList": "First",
+    "isOutOfUnitMember": false,
+    "address": {
+        "formattedLine1": "123 Test st.",
+        "formattedLine2": "Testville, testland 12345-5555",
+        "formattedLine3": null,
+        "formattedLine4": null,
+        "useType": null,
+        "formatted1": null,
+        "formatted2": null,
+        "formatted3": null,
+        "formatted4": null,
+        "formatted5": null,
+        "formatted6": null,
+        "formattedAll": [],
+        "addressLines": [
+            "123 Test st.",
+            "Testville, testland 12345-5555"
+        ]
+    },
+    "isProspectiveElder": false,
+    "householdNameDirectoryLocal": "last, first & first middle",
+    "nameListPreferredLocal": "Last, First",
+    "formattedAddress": "some formatted addresss",
+    "householdUuid": "some guid",
+    "isSingleAdult": false,
+    "isYoungSingleAdult": false,
+    "isHead": true,
+    "householdRole": "HEAD",
+    "youthBasedOnAge": false,
+    "wamPolicy": null,
+    "birth": {
+        "date": {
+            "date": "1995-10-11",
+            "calc": "1995-10-11",
+            "display": "11 Oct 1995"
+        },
+        "monthDay": {
+            "date": "0000-10-11",
+            "calc": "",
+            "display": "11 Oct"
+        },
+        "place": null,
+        "country": null
+    },
+    "personStatusFlags": {
+        "member": true,
+        "convert": false,
+        "adult": true,
+        "singleAdult": false,
+        "youngSingleAdult": false,
+        "prospectiveElder": false,
+        "deceased": false,
+        "hasPatriarchalBlessing": false
+    }
+}]
