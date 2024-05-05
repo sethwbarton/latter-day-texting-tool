@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    app=['src/main.py'],
+    name='Latter-day Texting Tool - arm64',
+    app=['../../../src/main.py'],
     options={
         "py2app": {
-            "includes": ["os", "platform"],
             "arch": "arm64",
         }
     },
