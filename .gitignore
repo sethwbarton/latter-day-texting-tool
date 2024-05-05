@@ -1,3 +1,5 @@
 .idea
 venv
 latter-day-texting-tool.iml
+build
+dist
