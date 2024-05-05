@@ -1,8 +1,9 @@
-from src.ui.show_ui import show_ui
+from src.ui.show_ui import UI
 
 
 def main():
-    show_ui()
+    gui = UI()
+    gui.draw_ui()
 
 
 if __name__ == '__main__':
