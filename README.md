@@ -22,7 +22,7 @@ From the Github repository, click on "Releases".
 
 Download the two shortcut files from the latest release. [Read more about Mac OS Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) if you are unsure what these do.
 
-On the latest release, download the package for your CPU architecture. If you have a 
+You should also download the application for your CPU architecture. If you have a 
 Mac running an x86 Intel CPU, choose the release titled `Latter-day.Texting.Tool.x86.zip`. If you have a 
 Mac running an ARM64 Apple Silicon CPU, choose the release titled `Latter-day.Texting.Tool.arm64.zip`.
 
