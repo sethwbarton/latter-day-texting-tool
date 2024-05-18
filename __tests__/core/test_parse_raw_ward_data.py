@@ -1,10 +1,13 @@
 import json
+from os import path
 
 from src.core.parse_raw_ward_data import parse_raw_ward_data
 
 
 def get_example_member():
-    f = open("../example_data/member.json")
+    basepath = path.dirname(__file__)
+    filepath = path.abspath(path.join(basepath, "..", "example_data", "member.json"))
+    f = open(filepath)
     data = json.load(f)
     f.close()
     return data

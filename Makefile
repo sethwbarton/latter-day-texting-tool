@@ -8,4 +8,4 @@ clean:
 	rm -rf ./scripts/builds/arm64/build ./scripts/builds/arm64/dist ./scripts/builds/x86/build ./scripts/builds/x86/dist
 
 test:
-	python3 -m unittest discover -s __tests__
+	pytest
