@@ -30,6 +30,8 @@ selecting "About This Mac", and looking at the "Chip" field.
 When the download is complete, unzip the file by double-clicking on it. You should see an application appear where you 
 unzipped the folder.
 
+While you're here, you should also download the two shortcuts that are stored in the `Shortcuts` folder in this repository. These are what you will run to text everyone in the ward.
+
 ### Updating Ward Member Data
 
 **NOTE: You Only Need to Do this When Your Contact List is Out of Date With Ward Records**
@@ -47,13 +49,17 @@ have a generated CSV on your desktop.
 
 ### Sending Text Messages to The Elders Quorum
 
-Import the generated CSV of contacts into your Mac OS contacts app. And create a smart list called "Elders Quorum" by 
-filtering for contacts with the Elders Quorum note.
+Import the generated CSV of contacts into your Mac OS contacts app. And create a smart list called "Elder's Quorum" by 
+filtering for contacts with the Elders Quorum note. **You only need to do this if your contacts list is out of date with ward records.**
 
+![CleanShot 2024-05-18 at 15 13 20](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/c96f9ee4-5b15-4daf-afb1-b55785b5b830)
+
+Once you have a smart list titled "Elder's Quorum" you can run the "Text Elder's Quorum" shortcut to send a message to everyone in the Elder's Quorum.
+Alternatively, you can run the "Text Elder's Quorum with Attachement" shortcut to also send everyone an attachement such as a flyter or picture.
 
 ### Sending Text Messages to the Relief Society
 
-Coming soon.
+Coming soon! Work on this project is ongoing. If you'd like to help speed it along, please read the contributing section below.
 
 ## How to Contribute
 
