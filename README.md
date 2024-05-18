@@ -10,7 +10,7 @@ set up accounts on other platforms.
 
 **Operating System**: Mac OS
 
-**Software Installed**: Shortcuts App for Mac OS, Google Chrome, Contacts App for Mac OS
+**Software Installed**: Shortcuts App for Mac OS, Google Chrome, Contacts App for Mac OS, Apple ID log in
 
 ## Usage Instructions
 
@@ -28,7 +28,9 @@ selecting "About This Mac", and looking at the "Chip" field.
 When the download is complete, unzip the file by double-clicking on it. You should see an application appear where you 
 unzipped the folder.
 
-### Downloading Ward Member Data
+### Updating Ward Member Data
+
+**NOTE: You Only Need to Do this When Your Contact List is Out of Date With Ward Records**
 
 Right-click (or click with two fingers) on the application and select "Open". 
 The first time you do this, you may see a warning about this being from an unidentified developer. You can 
@@ -41,9 +43,15 @@ From here, you need to navigate to the "Member Directory" page on the Church's w
 When the application receives the member list data, the browser window will close automatically and you will
 have a generated CSV on your desktop.
 
-### Sending Text Messages
+### Sending Text Messages to The Elders Quorum
+
+Import the generated CSV of contacts into your Mac OS contacts app. And create a smart list called "Elders Quorum" by 
+filtering for contacts with the Elders Quorum note.
 
 
+### Sending Text Messages to the Relief Society
+
+Coming soon.
 
 ## How to Contribute
 
