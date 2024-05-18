@@ -16,7 +16,7 @@ set up accounts on other platforms.
 
 ### Install the Application 
 
-![CleanShot 2024-05-18 at 15 03 56](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/a8ed35c1-4a35-47a0-b233-949c192de1ef)
+![CleanShot 2024-05-18 at 15 28 55](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/4c014623-d6b0-4e49-ae9a-afa77c826f25)
 
 From the Github repository, click on "Releases".
 
