@@ -16,11 +16,13 @@ set up accounts on other platforms.
 
 ### Install the Application 
 
-![CleanShot 2024-05-18 at 15 03 56](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/a8ed35c1-4a35-47a0-b233-949c192de1ef)
+![CleanShot 2024-05-18 at 15 28 55](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/4c014623-d6b0-4e49-ae9a-afa77c826f25)
 
 From the Github repository, click on "Releases".
 
-On the latest release, download the package for your CPU architecture. If you have a 
+Download the two shortcut files from the latest release. [Read more about Mac OS Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) if you are unsure what these do.
+
+You should also download the application for your CPU architecture. If you have a 
 Mac running an x86 Intel CPU, choose the release titled `Latter-day.Texting.Tool.x86.zip`. If you have a 
 Mac running an ARM64 Apple Silicon CPU, choose the release titled `Latter-day.Texting.Tool.arm64.zip`.
 
@@ -47,13 +49,17 @@ have a generated CSV on your desktop.
 
 ### Sending Text Messages to The Elders Quorum
 
-Import the generated CSV of contacts into your Mac OS contacts app. And create a smart list called "Elders Quorum" by 
-filtering for contacts with the Elders Quorum note.
+Import the generated CSV of contacts into your Mac OS contacts app. And create a smart list called "Elder's Quorum" by 
+filtering for contacts with the Elders Quorum note. **You only need to do this if your contacts list is out of date with ward records.**
 
+![CleanShot 2024-05-18 at 15 13 20](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/c96f9ee4-5b15-4daf-afb1-b55785b5b830)
+
+Once you have a smart list titled "Elder's Quorum" you can run the "Text Elder's Quorum" shortcut to send a message to everyone in the Elder's Quorum.
+Alternatively, you can run the "Text Elder's Quorum with Attachement" shortcut to also send everyone an attachement such as a flyter or picture.
 
 ### Sending Text Messages to the Relief Society
 
-Coming soon.
+Coming soon! Work on this project is ongoing. If you'd like to help speed it along, please read the contributing section below.
 
 ## How to Contribute
 
