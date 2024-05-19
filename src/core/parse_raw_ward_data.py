@@ -37,8 +37,4 @@ class WardMember:
         self.note = note
 
     def to_csv_row(self):
-        phone_number = self.phone_number
-        first_name = self.first_name
-        last_name = self.last_name
-
-        return f'{last_name},{first_name},{phone_number},Elders Quorum\n'
+        return f'{self.last_name},{self.first_name},{self.phone_number},{self.note}\n'

@@ -35,7 +35,7 @@ class UI:
 
         def handle_button_press(event):
             self.member_list = parse_raw_ward_data(self.fetch_ward_data())
-            self.save_member_list_to_csv()
+            self.save_member_list_to_csvs()
 
         button = tk.Button(text="Get Ward Data")
         button.bind("<Button-1>", handle_button_press)
@@ -44,19 +44,27 @@ class UI:
         # Start the event loop.
         self.window.mainloop()
 
-    def save_member_list_to_csv(self):
+    def save_member_list_to_csvs(self):
         csv_header = "Last Name,First Name,Mobile Phone,Note\n"
 
-        csv_items = ""
+        # Elders Quorum CSV
+        elders_quorum_items = ""
+        relief_society_items = ""
         for member in self.member_list:
-            csv_items += member.to_csv_row()
-
-        print("Writing to file...")
+            if member.note == 'Elders Quorum':
+                elders_quorum_items += member.to_csv_row()
+            if member.note == 'Relief Society':
+                relief_society_items += member.to_csv_row()
 
         desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+        print("Writing Elder's Quorum CSV...")
 
-        with open(os.path.join(desktop_path, "ward_data.csv"), "w") as file:
-            file.write(csv_header + csv_items)
+        with open(os.path.join(desktop_path, "elders_quorum.csv"), "w") as file:
+            file.write(csv_header + elders_quorum_items)
+
+        print("Writing Relief Society CSV...")
+        with open(os.path.join(desktop_path, "relief_society.csv"), "w") as file:
+            file.write(csv_header + relief_society_items)
 
         print("File successfully written")
 
