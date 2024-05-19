@@ -84,3 +84,23 @@ def test_ignores_members_with_missing_first_or_last_name():
     results = parse_raw_ward_data([missing_first_name, missing_last_name])
 
     assert results == []
+
+
+def test_ignores_any_men_whose_priesthood_office_is_not_ELDER():
+    deacon = get_example_member()[0]
+    deacon['priesthoodOffice'] = "DEACON"
+
+    results = parse_raw_ward_data([deacon])
+
+    assert results == []
+
+
+def test_ignores_any_women_whose_age_is_less_than_18():
+    laurel = get_example_member()[0]
+    laurel['priesthoodOffice'] = "none"
+    laurel['sex'] = 'F'
+    laurel['age'] = 17
+
+    results = parse_raw_ward_data([laurel])
+
+    assert results == []

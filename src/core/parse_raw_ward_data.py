@@ -11,6 +11,10 @@ def parse_ward_member(raw):
     last_name = raw['nameFormats']['familyPreferredLocal']
     if not phone_number or not first_name or not last_name:
         return None
+    if raw['sex'] == "M" and raw['priesthoodOffice'] != 'ELDER':
+        return None
+    if raw['sex'] == 'F' and raw['age'] < 18:
+        return None
     member = WardMember(phone_number=filter_numeric(phone_number),
                         first_name=first_name,
                         last_name=last_name,
