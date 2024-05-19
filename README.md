@@ -45,21 +45,19 @@ This will open a browser window and prompt you to log into the Church's website.
 
 From here, you need to navigate to the "Member Directory" page on the Church's website. 
 When the application receives the member list data, the browser window will close automatically and you will
-have a generated CSV on your desktop.
+have two generated CSVs on your desktop for Elder's Quorum and Relief Society.
 
-### Sending Text Messages to The Elders Quorum
+### Sending Text Messages to The Elders Quorum and Relief Society
 
-Import the generated CSV of contacts into your Mac OS contacts app. And create a smart list called "Elder's Quorum" by 
-filtering for contacts with the Elders Quorum note. **You only need to do this if your contacts list is out of date with ward records.**
+Import the generated CSV of contacts into your Mac OS contacts app. And create two smart lists called "Elder's Quorum" and "Relief Society" by 
+filtering for contacts with the Elders Quorum note and Relief Society Note, respectively. **You only need to do this if your contacts list is out of date with ward records.**
 
 ![CleanShot 2024-05-18 at 15 13 20](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/c96f9ee4-5b15-4daf-afb1-b55785b5b830)
 
 Once you have a smart list titled "Elder's Quorum" you can run the "Text Elder's Quorum" shortcut to send a message to everyone in the Elder's Quorum.
 Alternatively, you can run the "Text Elder's Quorum with Attachement" shortcut to also send everyone an attachement such as a flyter or picture.
 
-### Sending Text Messages to the Relief Society
-
-Coming soon! Work on this project is ongoing. If you'd like to help speed it along, please read the contributing section below.
+Right now, we only have Shortcuts to send messages to the Elder's Quorum, but we will create shortcuts to send messages to the Relief Society soon.
 
 ## How to Contribute
 
