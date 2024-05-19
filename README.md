@@ -40,6 +40,8 @@ Right-click (or click with two fingers) on the application and select "Open".
 The first time you do this, you may see a warning about this being from an unidentified developer. You can 
 safely click "open."
 
+![CleanShot 2024-05-18 at 19 09 27@2x](https://github.com/sethwbarton/latter-day-texting-tool/assets/33107324/696c03a6-2254-4813-a58a-20c7eaf9137a)
+
 This will open a small window with a single button that says "Download Ward Member Data". Click this button.
 This will open a browser window and prompt you to log into the Church's website. 
 
